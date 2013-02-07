@@ -1,0 +1,7 @@
+{
+"Server": "irc.network.net",
+"Port": "6667",
+"Nick": "yournick",
+"User": "youruser",
+"Channel": "#somechannel"
+}
