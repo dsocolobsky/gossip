@@ -22,20 +22,19 @@ func main() {
 	// I use holder as fix, but should be rewritten
 	input := ""
 	holder := ""
-	for input != "END" {
+	for input != "/quit" {
 		line, err := tp.ReadLine()
 		if err != nil {
 			break // break loop on errors
 		}
-		// Turn on for verbose
 		fmt.Printf("%s\n", line)
 
 		fmt.Scanf("%s", &input)
-		fmt.Println(input)
 		if input != "" && input != holder {
 			mcon.SendMessage(sock, input)
 			holder = input
 		}
 	}
-
+	
+	return
 }

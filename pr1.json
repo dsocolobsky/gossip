@@ -1,7 +1,7 @@
 {
-"Server": "irc.network.net",
+"Server": "irc.geekshed.net",
 "Port": "6667",
-"Nick": "yournick",
-"User": "youruser",
-"Channel": "#somechannel"
+"Nick": "dysoco|gs",
+"User": "dysoco|gs",
+"Channel": "#devshed"
 }
